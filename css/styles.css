@@ -1,0 +1,56 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+.page {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* site contacts */
+.site-contacts .link {
+  color: var(--primary-text-color);
+}
+.site-contacts .link:hover,
+.site-contacts .link:focus {
+  color: var(--accent-text-color);
+}
+/* main */
+.hero-title {
+  color: var(--primary-white-color);
+}
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* features */
+.features .title {
+  color: var(--title-text-color);
+}
+
+/* Our team */
+.personal-name .title {
+  color: var(--title-text-color);
+}
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-text-color);
+  border-color: transparent;
+}
